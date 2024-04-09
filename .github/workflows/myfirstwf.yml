@@ -1,0 +1,8 @@
+name: my first workflow
+on: [PUSH]
+
+
+job: #jobs to run in the workflow
+  run_command: job name
+    runs-on:  ubuntu-latest
+    steps: # individual steps for the job to run
